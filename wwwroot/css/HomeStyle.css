@@ -1,0 +1,10 @@
+﻿body {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+label, h1 {
+    color: #0d6efd96;
+}

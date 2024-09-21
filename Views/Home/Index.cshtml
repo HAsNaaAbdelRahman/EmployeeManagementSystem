@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+ <!DOCTYPE html>
+    <html>
+    <head>
+        <title> </title>
+<link rel="stylesheet" href="~/css/HomeStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        h3, .list-group-item {
+            color: #198cff;
+       }
+
+        .list-group-item {
+            text-align: center;
+            justify-content: center;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+    </head>
+
+    <body>
+        <div class="text-center">
+            <h1>Employee Managment System Application</h1>
+            <br />
+            <img src="~/images/employee-management-icon-editable-vector.jpg" width="10%" />
+            </div>
+
+            <br /> <br /> <br />
+            <div class ="text-center">
+
+                <ul class="list-group">
+
+            <a class="list-group-item list-group-item-action" asp-action="AddEmployee">add</a>
+            <a class="list-group-item list-group-item-action" asp-action="EditForm">update</a>
+            <a class="list-group-item list-group-item-action" asp-action="DeleteRecord">delete</a>
+            <a class="list-group-item list-group-item-action" asp-action="Search">Search</a>
+            <a class="list-group-item list-group-item-action" asp-action="ShowAllEmployees">show all employees</a>
+
+                </ul>
+
+        </div>
+    </body>
+    </html>
+
